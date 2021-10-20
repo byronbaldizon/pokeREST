@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokeREST</title>
+    <link rel="stylesheet" href="main.css">    
+</head>
+<body>
+    <div id="container">
+        <div class="navigator">
+            <a href="" class="logo">pokeREST</a>
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    About
+                </li>
+            </ul>
+        </div>
+        <header>    
+            <img id="banner" src="assets/images/pokemon-banner.jpg" alt="banner">
+        </header>
+        <hr>
+        <div class="contents">
+            <div class="left">
+                <div>
+                    <img id="pokemon" src="" alt=" ">
+                </div>
+                <div>
+                    <h2 id="nombre"></h2>
+                </div>
+            </div>    
+            <div class="cent">
+                <h3 id="desc">Description:</h3>
+                <p id="des"></p>
+            </div>
+            <div id="info">
+                <label for="pokeNumber"></label>
+                <span id="pokeNum">Pokemon Number:</span><input id="inputNumber" type="text" name="pokeNumber">
+                <button onclick="fetchInfo()">SUBMIT</button>
+            </div>
+        </div>    
+        <script src="main.js">
+            
+        </script>
+    </div>    
+</body>
+</html>

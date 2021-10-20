@@ -1,0 +1,155 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    margin:20px;
+    display:flex;
+    flex-direction: column;   
+    justify-content: center;
+    
+}
+
+.navigator{
+    
+    display:flex;
+    flex-direction: row;
+    max-width: 95%;
+    background-color: #121212;
+    border-radius: 5px;
+    margin:auto;
+    line-height: 40px;
+    justify-content: space-around;
+    
+}
+
+ul{
+    
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    padding:10px;
+    color:#333333;
+}
+li{
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 36px;
+    font-size: 24px;
+}
+
+li:hover{
+    color:yellow;
+}
+.logo{
+    margin:0;
+    padding:0;
+    text-decoration: none;   
+    color:red;
+    font-size: 48px;
+    align-self: center;
+    padding-left: 24px;
+}
+
+.header{
+    display: flex;
+    
+    padding: 10px;
+    
+}
+
+
+#banner{
+    display:flex;
+    margin:auto;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #333333;
+    max-width: 95%;
+    margin:auto;
+    border-radius: 15px;
+}
+
+#nombre{
+    text-align: center;
+    color:lawngreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+}
+
+#pokemon{
+    display:flex;
+    width: 40%;
+    margin:auto;
+}
+
+#desc{
+    color:lawngreen;
+    text-align: center;
+    font-size: 30px;
+}
+.cent{
+    
+    
+    background-color: #333333;
+    width: 95%;
+    margin:auto;
+    border-radius: 15px;
+}
+#des{
+    color:yellow;
+    text-align: justify;
+    font-size: 24px;
+    padding: 20px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    border-radius: 15px;
+    background-color: #333333;
+    width: 95%;
+    
+}
+
+#pokeNum{
+    color:greenyellow;
+    line-height: 60px;
+    margin:auto;
+    font-size: 30px;
+}
+
+input{
+    width:60px;
+    margin:auto;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+button{
+    width: 50%;
+    margin:auto;
+    background-color:rgb(255, 94, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:white;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 24px;
+}
